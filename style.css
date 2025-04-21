@@ -30,6 +30,7 @@ html,body {
 }
 
 #workingarea {
+    position: relative;
     margin: 0 auto;
     width: 80%;
     height: 100vh;
@@ -63,3 +64,22 @@ html,body {
     font-family: 'gilroy';
 }
 
+#hero {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#heroleft {
+    min-width: 50%;
+    background-color: yellow;
+}
+
+#heroright {
+    min-width: 25%;
+    background-color: green;
+}
