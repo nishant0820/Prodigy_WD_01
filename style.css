@@ -350,3 +350,85 @@ header {
         right: 5px;
     }
 }
+
+
+/* ------------------- Mobile Responsive (≤ 480px) ------------------- */
+@media screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar img {
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    .center-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar .center-nav a,
+    .social a {
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+
+    .text {
+        top: 4rem;
+        left: 1.5rem;
+        width: 90%;
+    }
+
+    .text h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .text p {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .burger {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        bottom: 10px;
+    }
+
+    .burger img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .burger-toggle img {
+        width: 85%;
+        top: 12rem;
+        right: 10px;
+    }
+
+    .text .btn {
+        display: block;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+}
